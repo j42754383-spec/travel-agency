@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .circle-bg { fill: none; stroke: #DC143C; stroke-width: 2; }
+      .circle-text { font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; fill: #DC143C; letter-spacing: 1.5px; }
+      .plane { fill: #DC143C; }
+    </style>
+  </defs>
+  
+  <circle cx="100" cy="100" r="98" class="circle-bg" stroke-width="3"/>
+  <circle cx="100" cy="100" r="88" class="circle-bg" stroke-width="2"/>
+  <circle cx="100" cy="100" r="78" class="circle-bg" stroke-width="1.5"/>
+  
+  <path class="circle-text" d="M 30 100 A 70 70 0 0 1 170 100" fill="none" stroke="none" id="topArc"/>
+  <text class="circle-text" font-size="10" font-weight="bold" letter-spacing="2">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">
+      FUNDACIÓN INTERNACIONAL
+    </textPath>
+  </text>
+  
+  <path class="circle-text" d="M 170 100 A 70 70 0 0 1 30 100" fill="none" stroke="none" id="bottomArc"/>
+  <text class="circle-text" font-size="10" font-weight="bold" letter-spacing="2">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">
+      DE SERVICIOS
+    </textPath>
+  </text>
+  
+  <g transform="translate(100, 100)">
+    <path class="plane" d="M -8 -5 L 8 0 L -8 5 L -4 0 Z M 0 -8 L 3 -2 L 0 2 L -3 -2 Z"/>
+    <path class="plane" d="M -15 10 L -5 15 L -10 10 Z"/>
+    <path class="plane" d="M 15 10 L 5 15 L 10 10 Z"/>
+  </g>
+</svg>
