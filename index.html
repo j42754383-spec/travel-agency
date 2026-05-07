@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIS - Fundación Internacional de Servicios | Agencia de Viajes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="FIS Logo" class="logo-img">
+                <span class="brand">FIS Travel</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link">Inicio</a>
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+                <a href="#destinos" class="nav-link">Destinos</a>
+                <a href="#ofertas" class="nav-link">Ofertas</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Vive Experiencias Inolvidables</h1>
+            <p>Los mejores precios y ofertas en viajes internacionales</p>
+            <button class="cta-button">Buscar Viajes</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2>Sobre FIS - Fundación Internacional de Servicios</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="tabs">
+                        <button class="tab-button active" data-tab="historia">Historia</button>
+                        <button class="tab-button" data-tab="valores">Nuestros Valores</button>
+                        <button class="tab-button" data-tab="diferencia">¿Por Qué FIS?</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="historia">
+                        <h3>Nuestra Historia</h3>
+                        <p>La Fundación Internacional de Servicios fue fundada el 15 de mayo de 2011. Nuestro viaje comenzó con un pequeño préstamo del banco en Rusia de aproximadamente 700,000€, que utilizamos para rentar nuestro primer local como sede central.</p>
+                        <p>Desde entonces, hemos crecido exponencialmente hasta convertirnos en una gran agencia con más de 50 locales en diferentes ciudades y miles de agentes dedicados. Nuestro compromiso ha sido siempre el mismo: proveer a nuestros clientes los mejores precios y ofertas que jamás podrían conseguir en otro sitio.</p>
+                    </div>
+
+                    <div class="tab-content" id="valores">
+                        <h3>Nuestros Valores</h3>
+                        <p>Lo que nos hace diferentes es nuestra motivación constante de hacer las cosas fáciles y mejores. Nuestra administración y procesos son rápidos y sencillos gracias a nuestras múltiples herramientas corporativas que nos permiten ofrecer una amplia variedad de opciones para cada destino.</p>
+                        <p>Creemos en la transparencia, la eficiencia y la innovación como pilares fundamentales de nuestro servicio.</p>
+                    </div>
+
+                    <div class="tab-content" id="diferencia">
+                        <h3>¿Por Qué Elegirnos?</h3>
+                        <p>Para nosotros, la relación con nuestros clientes va más allá de una transacción comercial. Tratamos a cada persona como parte de nuestra familia. No olvidamos a quienes alguna vez utilizaron nuestros servicios; guardamos cada experiencia y la utilizamos para garantizar que futuros viajeros tengan una experiencia igual o más agradable.</p>
+                        <p>Si algún día decides volver a FIS, verás cómo tu viaje ha impactado la experiencia de miles de otras personas.</p>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">15</div>
+                        <div class="stat-label">Años de Experiencia</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Locales Activos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Agentes Profesionales</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100k+</div>
+                        <div class="stat-label">Clientes Satisfechos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinos" class="destinations">
+        <div class="container">
+            <h2>Destinos Populares</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-color: #87CEEB;">🏖️</div>
+                    <h3>Caribe</h3>
+                    <p>Playas paradisíacas y resorts de lujo</p>
+                    <span class="price">desde 850€</span>
+                </div>
+                <div class="destination-card">
+                    <div class="destination-image" style="background-color: #FFD700;">🗼</div>
+                    <h3>Europa</h3>
+                    <p>Cultura, historia y ciudades fascinantes</p>
+                    <span class="price">desde 650€</span>
+                </div>
+                <div class="destination-card">
+                    <div class="destination-image" style="background-color: #90EE90;">🏔️</div>
+                    <h3>América Latina</h3>
+                    <p>Aventura y naturaleza exótica</p>
+                    <span class="price">desde 750€</span>
+                </div>
+                <div class="destination-card">
+                    <div class="destination-image" style="background-color: #DEB887;">🕌</div>
+                    <h3>Medio Oriente</h3>
+                    <p>Experiencias culturales únicas</p>
+                    <span class="price">desde 920€</span>
+                </div>
+                <div class="destination-card">
+                    <div class="destination-image" style="background-color: #FFB6C1;">🏝️</div>
+                    <h3>Oceanía</h3>
+                    <p>Islas tropicales y arrecifes de coral</p>
+                    <span class="price">desde 1200€</span>
+                </div>
+                <div class="destination-card">
+                    <div class="destination-image" style="background-color: #E6E6FA;">🏔️</div>
+                    <h3>Asia</h3>
+                    <p>Templos antiguos y paisajes majestuosos</p>
+                    <span class="price">desde 900€</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ofertas" class="offers">
+        <div class="container">
+            <h2>Ofertas Especiales</h2>
+            <div class="offers-tabs">
+                <button class="offer-tab active" data-offer="verano">Verano</button>
+                <button class="offer-tab" data-offer="invierno">Invierno</button>
+                <button class="offer-tab" data-offer="ultima">Última Hora</button>
+            </div>
+            
+            <div class="offers-grid">
+                <div class="offer-card active" id="verano">
+                    <h3>Oferta de Verano</h3>
+                    <ul>
+                        <li>Descuento 25% en resorts de playa</li>
+                        <li>Vuelos internacionales con 20% OFF</li>
+                        <li>Alojamiento 7 noches por 6</li>
+                        <li>Tours incluidos sin costo adicional</li>
+                    </ul>
+                    <div class="offer-badge">-25%</div>
+                </div>
+
+                <div class="offer-card" id="invierno">
+                    <h3>Oferta de Invierno</h3>
+                    <ul>
+                        <li>Paquetes esquí con equipo incluido</li>
+                        <li>Hospedaje en cabañas de lujo</li>
+                        <li>Clases privadas de esquí</li>
+                        <li>Spa y relax después del día</li>
+                    </ul>
+                    <div class="offer-badge">-30%</div>
+                </div>
+
+                <div class="offer-card" id="ultima">
+                    <h3>Última Hora</h3>
+                    <ul>
+                        <li>Salidas en próximos 7 días</li>
+                        <li>Hasta 40% de descuento</li>
+                        <li>Flexibilidad en fechas</li>
+                        <li>Seguro de viaje incluido</li>
+                    </ul>
+                    <div class="offer-badge">-40%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">✈️</div>
+                    <h3>Vuelos</h3>
+                    <p>Mejores tarifas en vuelos internacionales y nacionales</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🏨</div>
+                    <h3>Alojamiento</h3>
+                    <p>Selección de hoteles y resorts en todos los rangos de precio</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🚗</div>
+                    <h3>Transporte</h3>
+                    <p>Renta de vehículos y traslados en destino</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🎫</div>
+                    <h3>Tours</h3>
+                    <p>Excursiones guiadas y actividades en el destino</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">📋</div>
+                    <h3>Documentación</h3>
+                    <p>Asesoría en visados y requisitos internacionales</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Seguros</h3>
+                    <p>Pólizas de viaje completas y protección total</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Lo Que Dicen Nuestros Clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Hace 10 años viajé con FIS a Europa y fue increíble. Decidí viajar nuevamente y notei cómo habían mejorado sus servicios. ¡Definitivamente volvería!"</p>
+                    <strong>María García</strong>
+                    <span>Madrid, España</span>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Los precios en FIS son realmente inmejorable. Comparé con otras agencias y fue la mejor opción. El trato fue muy profesional."</p>
+                    <strong>Juan Rodríguez</strong>
+                    <span>Barcelona, España</span>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Mi experiencia fue perfecta de inicio a fin. Los agentes realmente se preocupan por que tengas el mejor viaje posible."</p>
+                    <strong>Laura Fernández</strong>
+                    <span>Valencia, España</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Ponte en Contacto</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Tu Nombre" required>
+                        <input type="email" placeholder="Tu Correo" required>
+                        <input type="tel" placeholder="Tu Teléfono">
+                        <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                        <button type="submit" class="submit-button">Enviar</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📍 Ubicación</h3>
+                        <p>Sede Central<br>Rusia - Moscú<br>+50 sucursales en España</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📞 Teléfono</h3>
+                        <p>+34 900 123 456<br>Disponible 24/7</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>✉️ Email</h3>
+                        <p>info@fis-travel.com<br>reservas@fis-travel.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🕐 Horario</h3>
+                        <p>Lunes - Viernes: 9:00 - 19:00<br>Sábado: 10:00 - 17:00<br>Domingo: Cerrado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 FIS - Fundación Internacional de Servicios. Todos los derechos reservados.</p>
+            <p style="font-size: 0.85rem; color: #999; margin-top: 10px;">⚠️ Este sitio es un proyecto académico ficticio.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
